@@ -1,0 +1,231 @@
+.main {
+    max-width: 1976px;
+    max-height: 892px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    @media(max-width: 1200px) {
+        height: 50vw;
+    }
+    @media  (max-height:510px) and (min-aspect-ratio: 1200/510) {
+        width: 26%;
+        height: 30%;
+    }
+}
+
+.logo {
+    max-width: 376px;
+    max-height: 348px;
+    height: 100%;
+    width: 100%;
+    top: -30px;
+    position: absolute;
+    z-index: 100;
+}
+
+.logo-img {
+    width: 19.5vw;
+    // @media(max-width: 1200px) {
+    //     width: 30%;
+    //     height: 30%;
+    // }
+    // @media  (max-height:510px) and (min-aspect-ratio: 1200/510) {
+    //     width: 26%;
+    //     height: 30%;
+    // }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    max-width: 2006px;
+    max-height: 892px;
+    width: 100%;
+    height: 100%;
+    @media(max-width: 1200px) {
+        // width: 100%;
+        // height: 100vw;
+    }
+    @media  (max-height:510px) and (min-aspect-ratio: 1200/510) {
+        // width: 100%;
+        // height: 100%;
+    }
+}
+
+.glow {
+    background-image: url('./assets/img/glow 1.png');
+    width: 99%;
+    width: 99vw;
+    height: 100vh;
+    // position: absolute;
+    mix-blend-mode: screen;
+    // background-size: cover;
+    // background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.blue-glow {
+    position: absolute;
+    max-width: 1977px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    align-items: center;
+
+    @media(max-width: 1200px) {
+        height: 50vw;
+    }
+    @media  (max-height:510px) and (min-aspect-ratio: 1200/510) {
+        width: 26%;
+        height: 30%;
+    }
+    
+}
+
+.blue-glow__buttom {
+    max-height: 172px;
+    height: 100%;
+    width: 100%;
+    // z-index: 200;
+}
+
+.layer {
+    display: flex;
+    max-height: 953px;
+    width: 100%;
+    height: 100%;
+    // border: 2px double rgb(15, 209, 96);
+    position: absolute;
+}
+.layer-flank {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    // border: 2px solid olive;
+}
+.layer__item {
+    width: 25vw;
+    max-width: 452px;
+}
+.layer__bottom {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    // width: calc(var(--index) * 66.575);
+    // height: calc(var(--index) * 31);
+    // @media(max-width: 1200px) {
+    //     height: 50vw;
+    // }
+    // @media  (max-height:510px) and (min-aspect-ratio: 1200/510) {
+    //     width: 26%;
+    //     height: 30%;
+    // }
+}
+
+.layer-3 {
+    max-height: 380px;
+    width: 100%;
+    height: 100%;
+    // border: 2px solid yellow;
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+
+.mafia-costume {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.mafia-costume__woman,
+.mafia-costume__men {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.mafia-costume__woman {
+    max-width: 577px;
+    max-height: 876px;
+}
+.mafia-costume__men {
+    max-width: 678px;
+    max-height: 876px;
+}
+.mafia-costume__woman-img {
+    width: 30vw;
+    height: auto;
+}
+
+.mafia-costume__men-img {
+    width: 35vw;
+    height: auto;
+}
+ 
+
+.boxes {
+    max-width: 766px;
+    max-height: 525px;
+    top: 200px;
+    // left: 551px;
+    position: absolute;
+    // width: 100%;
+    // height: auto;
+}
+
+.boxes-img {
+    width: 40.5vw;
+    height: auto;
+
+    @media(max-width: 1200px) {
+        // width: 100%;
+        // height: 100%;
+    }
+    @media  (max-height:510px) and (min-aspect-ratio: 1200/510) {
+        // width: 100%;
+        // height: 100%;
+    }
+}
+
+.content {
+    // display: block;
+    position: absolute;
+}
+.content__title {
+    font-family: Roboto Condensed;
+    // font-size: 42px;
+    font-size: calc(var(--index) * 1.45631);
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+.content_comment {
+    font-family: Roboto Condensed;
+    // font-size: 20px;
+    font-size: calc(var(--index) * .70);
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin: 44px 0 80px;
+}

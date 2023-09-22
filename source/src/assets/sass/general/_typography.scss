@@ -1,0 +1,9 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+// можно так объявлять использование алиас
+$global--font-concert-one:  'Roboto Condensed', sans-serif;

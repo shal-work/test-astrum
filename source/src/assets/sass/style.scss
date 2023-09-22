@@ -1,0 +1,32 @@
+@import './general/gi.scss';
+// @import './helpers/anima.scss';
+// @import './helpers/anima-kolobok.scss';
+
+
+@import './sections/a1-test/main.scss';
+@import './sections/a1-test/package.scss';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    // overflow: hidden; 
+    overflow-x: hidden; 
+    font-family: 'Concert One', cursive;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+
+// @import './media.scss';
+
+
+
